@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "infinity_mending",
+	"version": "${version}",
+	"name": "Infinity Mending",
+	"description": "Allows Infinity and Mending to coexist on bows and books.",
+	"authors": [
+		"blupillcosby"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.blupillcosby.infinitymending.InfinityMending"
+		],
+		"client": [
+			"net.blupillcosby.infinitymending.InfinityMendingClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
